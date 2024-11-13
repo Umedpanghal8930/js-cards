@@ -26,7 +26,7 @@
     transition: all 400ms linear !important;
 }
 
-.card-img-top:hover {
+.card:hover .card-img-top {
     border-radius: 0px !important;
 }
 
@@ -53,7 +53,8 @@
 .mt-32 {
     margin-top: 32px;
 }
-.mb-24{
+
+.mb-24 {
     margin-bottom: 24px;
 }
 
@@ -73,4 +74,3 @@
 .opacity-60 {
     opacity: 60%;
 }
-
